@@ -21,8 +21,3 @@ more information.
 - Starting with Rails 6, Rails ships new and better way to autoload, which is Zeitwerk gem.
 - The advantage of this Zeitwerk gem is, we don't need to mention "require patch" in init.rb file of the plugin.
 #### We make this Redcase plugin compatible with Redmine 5.0.1
-Removing the following lines, from init.rb file 
-- require user_patch.rb
-- require project_patch.rb
-- require version_patch.rb
-- require issue_patch.rb
