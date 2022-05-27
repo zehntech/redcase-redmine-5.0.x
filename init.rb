@@ -1,10 +1,10 @@
 
 require 'redmine'
-require 'issue_patch'
-require 'project_patch'
-require 'version_patch'
-require 'user_patch'
-require 'redcase_override'
+# require 'issue_patch'
+# require 'project_patch'
+# require 'version_patch'
+# require 'user_patch'
+# require 'redcase_override'
 
 Redmine::Plugin.register :redcase do
 
